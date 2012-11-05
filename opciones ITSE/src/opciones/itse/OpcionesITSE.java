@@ -26,5 +26,25 @@ public class OpcionesITSE
                 System.out.print("\nLa opcion 4: Lee una cadena y el rango entre 2 numeros");
      
                 Scanner manual = new Scanner (System.in);
+                
+            
+                
+               int opcion = manual.nextInt();
+                
+               
+          switch (opcion)
+         
+      {    
+            case 1: 
+          String thania = manual.next();
+                for (int i = thania.length() - 1; i >= 0; i--)
+                {
+                    char c = thania.charAt(i);
+                    System.out.print(c);
+
+                }
+                break;
+            
+    }
     }
 }
